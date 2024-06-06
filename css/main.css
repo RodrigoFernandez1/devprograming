@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 
-/*
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -898,7 +893,6 @@ input, select, textarea {
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
 	}
 
@@ -995,7 +989,7 @@ input, select, textarea {
 	.carousel {
 		position: relative;
 		overflow: hidden;
-		padding: 2em 0 2em 0;
+		padding: 4.5e, 0 4.5em;
 		margin-bottom: 0;
 	}
 

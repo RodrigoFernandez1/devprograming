@@ -9,6 +9,7 @@
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 button {
@@ -74,7 +75,7 @@ nav button:hover,
 .hero .left-section .top .buttons button.doc:hover,
 .contact .items .item button:hover {
   color: #000;
-  background: #0051ff;
+  background: #004cff;
   border-color: #dedede;
 }
 

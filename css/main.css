@@ -891,7 +891,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #f9f9f9;
 		text-align: center;
 		margin-bottom: 0;
 	}
@@ -1071,7 +1071,7 @@ input, select, textarea {
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #00ff80;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;

@@ -429,7 +429,7 @@ a {
 .carousel {
   position: relative;
   overflow: hidden;
-  padding: 4.5em 0;
+  padding: 3.em 0;
   margin-bottom: 0;
 }
 
@@ -547,9 +547,15 @@ a {
   margin-bottom: 3em;
 }
 
+.carousel article h3 {
+  text-align: center;
+  margin-top: -1.50em;
+}
+
 .carousel article p {
   flex-grow: 1;
   text-align: center;
+  margin-top: -1em;
 }
 
 /* Wide */

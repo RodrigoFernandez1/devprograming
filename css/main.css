@@ -559,14 +559,6 @@ a {
   margin-top: -1em;
 }
 
-.carousel .reel::-webkit-scrollbar {
-  display: none;
-}
-
-.carousel .reel {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
 
 /* Wide */
 

@@ -64,8 +64,8 @@ nav button {
   font-size: 14px;
   height: 32px;
   width: 122px;
-  background: #000;
-  color: #fff;
+  background: #000000;
+  color: #ffffff;
   border-radius: 8px;
   border: 1px solid transparent;
   transition: all 0.3s ease;
@@ -74,9 +74,14 @@ nav button {
 nav button:hover,
 .hero .left-section .top .buttons button.doc:hover,
 .contact .items .item button:hover {
-  color: #000;
-  background: #004cff;
+  color: #000000;
+  background: #b9b9b9;
   border-color: #dedede;
+}
+
+.Github-a:hover {
+  color: #fdfdfd;
+  font-weight: 700;
 }
 
 nav button i {
@@ -153,6 +158,10 @@ nav button i {
   background: #000;
   color: #fff;
   border-color: transparent;
+}
+
+.git a:hover {
+  color: #dedede;
 }
 
 .Github-a {

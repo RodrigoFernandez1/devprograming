@@ -429,7 +429,7 @@ a {
 .carousel {
   position: relative;
   overflow: hidden;
-  padding: 3.em 0;
+  padding: 3em 0;
   margin-bottom: 0;
 }
 
@@ -441,6 +441,7 @@ a {
   height: 12em;
   margin-top: -6em;
   cursor: pointer;
+  z-index: 1;
 }
 
 .carousel .forward:before,
@@ -508,7 +509,7 @@ a {
 .carousel .reel {
   display: flex;
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
   -webkit-overflow-scrolling: touch;
@@ -549,13 +550,22 @@ a {
 
 .carousel article h3 {
   text-align: center;
-  margin-top: -1.50em;
+  margin-top: -1.5em;
 }
 
 .carousel article p {
   flex-grow: 1;
   text-align: center;
   margin-top: -1em;
+}
+
+.carousel .reel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel .reel {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Wide */

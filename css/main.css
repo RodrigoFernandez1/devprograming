@@ -516,12 +516,13 @@ a {
   padding: 0 2em;
 }
 
+/* estilo del relleno de fondo */
 .carousel article {
   display: inline-block;
   flex: 0 0 auto;
   vertical-align: top;
   width: 18em;
-  height: 31em;
+  height: em;
   background: #ffffff;
   text-align: center;
   padding: 0 1em 3em 1em;
@@ -540,10 +541,10 @@ a {
 
 .carousel article .image {
   position: relative;
-  left: -1em;
-  top: 0;
+  left: -4%;
+  top: 5%;
   height: auto;
-  width: auto;
+  width: 107%;
   margin-right: -2em;
   margin-bottom: 3em;
 }

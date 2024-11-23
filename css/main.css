@@ -505,7 +505,7 @@ a {
   -ms-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-
+/*  
 .carousel .reel {
   display: flex;
   white-space: nowrap;
@@ -514,6 +514,21 @@ a {
   position: relative;
   -webkit-overflow-scrolling: touch;
   padding: 0 2em;
+}
+*/
+
+.carousel .reel {
+  display: flex;
+  white-space: nowrap; /* Previene el salto de línea entre los elementos */
+  overflow: hidden; /* Asegura que el contenido excedente esté oculto */
+  position: relative; /* Permite control interno de desplazamiento */
+  padding: 0 2em; /* Ajusta los márgenes internos */
+  scrollbar-width: none; /* Oculta la barra en Firefox */
+  -ms-overflow-style: none; /* Oculta la barra en IE y Edge */
+}
+
+.carousel .reel::-webkit-scrollbar {
+  display: none; /* Oculta la barra en Chrome, Safari y Edge */
 }
 
 /* estilo del relleno de fondo */
@@ -559,7 +574,6 @@ a {
   text-align: center;
   margin-top: -1em;
 }
-
 
 /* Wide */
 
